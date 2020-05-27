@@ -8,9 +8,8 @@ margin: 0 auto}
 	height: 3px;
 	background-color: #000000
 }
-*{
-	padding: 0;
-	margin: 0;
+*{padding: 0;
+  margin: 0;
 }
 #wrapper{
 	width:960px ;
@@ -30,6 +29,7 @@ margin: 0 auto}
 	color: white;
 	text-align: center;
 	font-size: 13px;
+	font-family: Forma;
 }
 .header .taskbar{
 	width:960px ;
@@ -124,6 +124,7 @@ list-style: none;
 	font-size: 30px;
 	text-align: center;
 	margin-top: 26px;
+	font-family: "Virgo 01";
 }
 .content .pic{
 	width: 420px;
@@ -169,7 +170,7 @@ list-style: none;
 	margin-right: 15px;
 }
 .content .arkworks{
-	width: 210px;
+	width: 220px;
 	height: 40px;
 /*	background: blue;*/
 	border-left: medium solid;
@@ -179,6 +180,7 @@ list-style: none;
 	text-align: center;	
 	float: left;
 	margin-top: 26px;
+	font-family: "Virgo 01";
 }
 .content .art{
 	width: 900px;
@@ -198,10 +200,13 @@ list-style: none;
 	margin-top: 20px;
 	text-align: center;
 	color: white;
+	font-family: "Virgo 01";
+	font-size: 10px;
 }
 .art .box img{
 	width: 200px;
 	float: left;
+	margin-bottom: 10px;
 }
 .footer{
 	width:960px ;
