@@ -1,0 +1,214 @@
+/* CSS Document */
+hr{width: 800px;
+height: 3px;
+background-color: #000000;
+margin: 0 auto}
+.taskbar hr{
+	width: 960px;
+	height: 3px;
+	background-color: #000000
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	width:960px ;
+	height:1150px ;
+/*	background:pink ;*/
+	margin: 0 auto;
+}
+.header{
+	width:960px ;
+	height:250px ;
+	background: #FFFFFF ;
+}
+.header .hello{
+	width:960px ;
+	height:30px ;
+	background: #000000 ;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+}
+.header .taskbar{
+	width:960px ;
+	height:220px ;
+/*	background: pink ;*/
+}
+.taskbar .contact{
+	width: 630px;
+	height: 75px;
+}
+.taskbar .contact{
+	width: 320px;
+	height: 95px;
+/*	background: orange;*/
+	float: left;
+}
+.taskbar .contact img{
+	width: 40px;
+	margin-left: 26px;
+	margin-top: 25px;
+	}
+.taskbar .contact img logo{
+	width: 960px;
+	height: 95px;
+}
+/*contact*/
+.taskbar .logo{
+	width: 320px;
+	height: 95px;
+/*	background: yellow;*/
+	float: left;
+}
+.taskbar .logo img{
+	width: 180px;
+	margin-left: 70px;
+}
+/*logo*/
+.taskbar .menu{
+	width: 320px;
+	height: 95px;
+/*	background: gray;*/
+	float: left;
+}
+.taskbar .menu ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+	margin-left: 21px;
+	margin-top: 35px;
+	font-size: 17px;
+}
+/*menu*/
+.taskbar .categories{
+	width: 500px;
+	height: 95px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+.categories ul{
+list-style: none;
+}
+.categories ul li{
+	float: left;
+	font-size: 20px
+}
+/*categories*/
+.taskbar .status{
+	width: 960px;
+	height: 30px;
+	background: #000000;
+	color: white;
+}
+.taskbar .status h2{
+	margin-left: 26px;
+	font-size: 20px;
+}
+/*taskbar*/
+/*header*/
+.content{
+	width:960px ;
+	height:850px ;
+/*	background:#40EED1 ;*/
+}
+.content .trip{
+	width: 120px;
+	height: 40px;
+/*	background: green;*/
+	border-left: medium solid;
+	border-right: medium solid;
+	margin-left: 26px;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 26px;
+}
+.content .pic{
+	width: 420px;
+	height: 290px;
+	background: #000000;
+	margin-left: 26px;
+	padding: 10px;
+	float: left;
+	color: white;
+}
+.content .pic .left{
+	width: 370px;
+	height: 100px;
+/*	background: yellow;*/
+	margin-left: 26px;
+	display: block;
+	margin-top: 26px;
+}
+.content .pic .left img{
+	width: 100px;
+	float: left;
+    margin-right: 15px;
+}
+.content .pict{
+	width: 420px;
+	height: 290px;
+	background: #000000;
+	margin-right: 26px;
+	padding: 10px;
+	float: right;
+	color: white;
+}
+.content .pict .right{
+	width: 370px;
+	height: 100px;
+/*	background: yellow;*/
+	margin-left: 26px;
+	margin-top: 26px;
+}
+.content .pict .right img{
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+.content .arkworks{
+	width: 210px;
+	height: 40px;
+/*	background: blue;*/
+	border-left: medium solid;
+	border-right: medium solid;
+	margin-left: 26px;
+	font-size: 30px;
+	text-align: center;	
+	float: left;
+	margin-top: 26px;
+}
+.content .art{
+	width: 900px;
+	height: 300px;
+	background: #000000;
+	float: left;
+	margin-left: 26px;
+	margin-top: 26px;
+	font-size: 12px;
+}
+.art .box{
+/*	background: orange;*/
+	width: 200px;
+	height: 250px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+.art .box img{
+	width: 200px;
+	float: left;
+}
+.footer{
+	width:960px ;
+	height:50px ;
+	background: #000000 ;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 4px
+}
