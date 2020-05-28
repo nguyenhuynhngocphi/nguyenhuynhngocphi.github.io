@@ -1,9 +1,11 @@
 /* CSS Document */
-@font-face{
-	font-family: "Virgo 01";
+@font-face {
 	font-family: Forma;
-	src: url("font/forma.ttf")
-		url("font/virgo.ttf")
+	src: url("font/forma.ttf");
+}
+@font-face {
+	font-family: Virgo;
+	src: url("font/virgo.ttf");
 }
 hr{width: 800px;
 height: 3px;
@@ -130,7 +132,7 @@ list-style: none;
 	font-size: 30px;
 	text-align: center;
 	margin-top: 26px;
-	font-family: 'Virgo 01';
+	font-family: 'Virgo';
 }
 .content .pic{
 	width: 420px;
@@ -186,7 +188,7 @@ list-style: none;
 	text-align: center;	
 	float: left;
 	margin-top: 26px;
-	font-family: 'Virgo 01';
+	font-family: 'Virgo';
 }
 .content .art{
 	width: 900px;
@@ -206,7 +208,7 @@ list-style: none;
 	margin-top: 20px;
 	text-align: center;
 	color: white;
-	font-family: "Virgo 01";
+	font-family: "Virgo";
 	font-size: 10px;
 }
 .art .box img{
