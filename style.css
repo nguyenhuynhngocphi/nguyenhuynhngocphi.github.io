@@ -1,4 +1,10 @@
 /* CSS Document */
+@font-face {
+	font-family: "Virgo 01";
+	font-family: Forma;
+	src: url("font/forma.ttf")
+		url("font/virgo.ttf")
+}
 hr{width: 800px;
 height: 3px;
 background-color: #000000;
